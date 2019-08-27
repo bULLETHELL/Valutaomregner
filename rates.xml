@@ -1,0 +1,37 @@
+<exchangerates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="Valutakurser" author="Danmarks Nationalbank" refcur="DKK" refamt="1">
+    <dailyrates id="2019-08-23">
+        <currency code="AUD" desc="Australske dollar" rate="454,74"/>
+        <currency code="BGN" desc="Bulgarske lev" rate="381,22"/>
+        <currency code="BRL" desc="Brasilianske real" rate="164,87"/>
+        <currency code="CAD" desc="Canadiske dollar" rate="505,79"/>
+        <currency code="CHF" desc="Schweiziske franc" rate="684,47"/>
+        <currency code="CNY" desc="Kinesiske Yuan renminbi" rate="95,05"/>
+        <currency code="CZK" desc="Tjekkiske koruna" rate="28,93"/>
+        <currency code="EUR" desc="Euro" rate="745,59"/>
+        <currency code="GBP" desc="Britiske pund" rate="824,28"/>
+        <currency code="HKD" desc="Hongkong dollar" rate="85,92"/>
+        <currency code="HRK" desc="Kroatiske kuna" rate="100,84"/>
+        <currency code="HUF" desc="Ungarske forint" rate="2,269"/>
+        <currency code="IDR" desc="Indonesiske rupiah" rate="0,0474"/>
+        <currency code="ILS" desc="Israelske shekel" rate="191,55"/>
+        <currency code="INR" desc="Indiske rupee" rate="9,40"/>
+        <currency code="ISK" desc="Islandske kroner *" rate="5,399"/>
+        <currency code="JPY" desc="Japanske yen" rate="6,3298"/>
+        <currency code="KRW" desc="Sydkoreanske won" rate="0,5559"/>
+        <currency code="MXN" desc="Mexicanske peso" rate="33,88"/>
+        <currency code="MYR" desc="Malaysiske ringgit" rate="160,82"/>
+        <currency code="NOK" desc="Norske kroner" rate="74,86"/>
+        <currency code="NZD" desc="New Zealandske dollar" rate="429,49"/>
+        <currency code="PHP" desc="Filippinske peso" rate="12,85"/>
+        <currency code="PLN" desc="Polske zloty" rate="171,20"/>
+        <currency code="RON" desc="Rumænske lei" rate="157,92"/>
+        <currency code="RUB" desc="Russiske rubel" rate="10,22"/>
+        <currency code="SEK" desc="Svenske kroner" rate="69,57"/>
+        <currency code="SGD" desc="Singapore dollar" rate="485,41"/>
+        <currency code="THB" desc="Thailandske baht" rate="21,93"/>
+        <currency code="TRY" desc="Tyrkiske lira" rate="116,84"/>
+        <currency code="USD" desc="Amerikanske dollar" rate="673,83"/>
+        <currency code="XDR" desc="SDR (Beregnet **)" rate="923,58"/>
+        <currency code="ZAR" desc="Sydafrikanske rand" rate="44,26"/>
+    </dailyrates>
+</exchangerates>

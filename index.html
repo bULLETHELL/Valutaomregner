@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valutaomregner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/currency-flags/1.8.0/currency-flags.min.css">
+</head>
+
+<body>
+    <div id="selector" class="container">
+        <h1 style="margin-bottom: 3rem; margin-top: 2rem">Valutaomregner</h1>
+        <form>
+            <div class="row">
+                <div class="currency-flag currency-flag-lg currency-flag-dkk"
+                    style="margin-top: 0.5rem; margin-left: 1.5rem"></div>
+                <div class="col">
+                    <select class="form-control" id="fromCurrencyDropdown">
+                        <option>
+                            Danske Kroner
+                        </option>
+                    </select>
+                </div>
+                <div id="currencyflagdiv" class="currency-flag currency-flag-lg currency-flag-aud"
+                    style="margin-top: 0.5rem; margin-left: 1.5rem"></div>
+                <div class="col">
+                    <select class="form-control" id="toCurrencyDropdown"></select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="currency-flag currency-flag-lg" style="margin-top: 0.5rem; margin-left: 1.5rem"></div>
+                <div class="col">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputDkk" placeholder="Skriv beløb">
+                    </div>
+                </div>
+                <div class="currency-flag currency-flag-lg" style="margin-top: 0.5rem; margin-left: 1.5rem"></div>
+                <div class="col">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="outputCurr">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../Valutaomregner/getCurrency.js"></script>
+</body>
+
+</html>
